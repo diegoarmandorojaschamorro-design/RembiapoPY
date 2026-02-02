@@ -131,7 +131,7 @@ def login_google(id_token_str: str) -> dict:
     if email_verified is False:
         return {"ok": False, "error": "Email de Google no verificado."}
 
-    # Buscar/crear usuario
+    # Buscar/crear usuario.
 
     user = find_user_by_google_sub(google_sub)
     if user:

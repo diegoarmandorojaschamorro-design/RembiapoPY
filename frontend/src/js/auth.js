@@ -97,7 +97,7 @@ export function initLoginPage() {
     // Google Identity Services
 
   const GOOGLE_CLIENT_ID =
-    "877002585907-3fp7dpp0j263oaj30i5gs89ucbqi0rsr.apps.googleusercontent.com";
+    "877002585907-ne7tte3vil46lrasqmj4np2kqq4l8t4l.apps.googleusercontent.com";
 
   if (!window.google?.accounts?.id) {
     showMsg("No cargó Google Identity Services. Revisá conexión o el script.");
